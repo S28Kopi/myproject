@@ -1,2 +1,20 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Explicitly set the line ending for specific file types
+*.md text
+*.txt text
+*.json text
+*.xml text          
+*.html text
+*.css text
+*.js text
+*.ts text
+*.scss text
+*.sass text
+*.less text
+*.yaml text
+*.yml text
+*.csv text
+*.toml text
+*.sh text   
+*.bat text
