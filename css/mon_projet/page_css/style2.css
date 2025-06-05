@@ -1,0 +1,64 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dac1c1;
+    color: #8b4513;
+    line-height: 1.6;
+}
+
+header{
+    background-color: #ffe4e1;
+    color: #fff;
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li{
+    margin-left: 20px;
+}
+nav a{
+    color: #ea9e9e;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: #a96969;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+main{
+    padding: 20px;
+}
+.hero{
+    background-size: cover;
+    color: #8b4513;
+    text-align: center;
+    padding: 100px 0;
+}
+.hero-content{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.hero h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}

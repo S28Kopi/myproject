@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header{
+    padding: 0px;
+    margin: 0;
+}
+
+
+nav {
+    background-color: orange;
+    position: sticky;
+    top: 50px;
+    width: 100%;
+    padding: 10px 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+.container-text {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 1300px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container-text h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+.container-text p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+.container-text a {
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container-text a:hover {
+    text-decoration: underline;
+}
+.photo_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.photo_img_3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.post_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+.post_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.post_video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.post_video video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.photo_img_2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.photo_img_2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.footer-content p {
+    margin: 0;
+    font-size: 1em;
+}
+.button-click {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.button-link {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.button-link:hover {
+    background-color: #e68a00;
+    box-shadow: #f4f4f4 0px 0px 15px;
+}
+.button-link:active {
+    transform: scale(0.95);
+}
+.button-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(255, 165, 0, 0.5);
+}
+.button-link:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.button-link:disabled:hover {
+    background-color: #ccc;
+    box-shadow: none;
+}
+.button-link:disabled:active {
+    transform: none;
+}
+.button-link:disabled:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+      
+        .FAQ {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .container-text {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 15px;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+
+        .faq-item h2 {
+            color: orange;
+        }
+
+        .faq-item p {
+            margin-top: 5px;
+        }
+        .faq-item button {
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
