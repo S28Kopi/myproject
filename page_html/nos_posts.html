@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html lang="FR">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIAKWELI</title>
     <link rel="stylesheet" href="/page_css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="noopener" href="https://www.facebook.com/share/19TCDxMepA/?mibextid=wwXIfr" target="_blank">
+    <link rel="noopener" href="https://www.instagram.com/biakweli_?igsh=MXIzajhwOXg4OTJ0dw==" target="_blank">
+    <link rel="noopener" href="https://www.tiktok.com/@biakweli?_t=ZM-8xIrRqIU6fF&_r=1" target="_blank">
 </head>
 <body>
    <header>
@@ -23,7 +27,7 @@
     </style>
         <nav class="navbar">
             <div class="navbar_logo">
-                <img src="/page_html/image/another_logo.jpg" width="150%" height="25px"  alt="Logo BIAKWELI">
+            <a href="/page_html/index.html" class="logo-link"> <img src="/page_html/image/another_logo.jpg" width="150%" height="25px"  alt="Logo BIAKWELI"></a> 
             </div>
             <ul id="liste">
                 <li><a href="/page_html/index.html">ACCUEIL</a></li>
@@ -31,6 +35,9 @@
                 <li><a href="/page_html/nos_posts.html">NOS POSTS</a></li>
                 <li><a href="/page_html/faq.html">FAQ</a></li>
             </ul>
+          <div class="burger-icon">
+            <img src="/page_html/image/bx-menu.svg" alt="menu hamburger icon" height="20px">
+        </div>
         </nav>
     </header>
 
@@ -43,43 +50,32 @@
 
   <div class="video">
         <h2></h2>
-        <iframe width="560" height="315" src="/page_html/image/introductionvido_BIAKWELI.mp4" title="Instagram Video Player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+        <video src="/page_html/image/introductionvido_BIAKWELI.mp4" height="215px" width="360" controls></video>
 
     <style>
-        video {
-            display: flex;
-            justify-content: center;
-            margin-top: 20px;
-        }
         .video {
             display: flex;
-            justify-content: center;
-            margin-top: 20px;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px;
+            
+        }
+        .video h2 {
+            margin-bottom: 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+        .video video {
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin-bottom: 50px;
         }
         .button-picture {
             display: flex;
             justify-content: center;
-            margin-top: 20px;
-        }
-
-        .button-link {
-            background-color: orange; /* Green */
-            color: white;
-            padding: 15px 32px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
-            border: none;
-            border-radius: 15px;
-        }
-
-        .button-link:hover {
-            background-color: black; /* Darker green on hover */
-            color: orange; /* White text on hover */
+            gap: 20px;
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
     </style>
 
@@ -87,9 +83,16 @@
         <a href="/page_html/nos_photos.html" class="button-link">NOS PHOTOS</a>
         <a href="/page_html/nos_videos.html" class="button-link">NOS VIDEOS</a>
     </div>
-<footer class="social_link">
-    <div class="footer-content">
-        <p>&copy; 2023 BIAKWELI. Tous droits réservés.</p>
-        <p>Contact: <a href="mailto:
-</footer>
+<footer>
+        <div class="footer-content">
+            <p>&copy; 2023 BIAKWELI. Tous droits réservés.</p>
+            <p>Contact: <a href="mailto:contact@biakweli.com">contact@biakweli.com</a></p>
+            <p>Suivez-nous sur les réseaux sociaux pour rester informé de nos activités et de nos projets.</p>
+            <p>Rejoignez-nous dans notre mission de sensibilisation et de développement en République sur nos réseaux sociaux</p>
+            <a href="https://www.facebook.com/share/19TCDxMepA/?mibextid=wwXIfr"></a>
+            <a href="https://www.instagram.com/biakweli_?igsh=MXIzajhwOXg4OTJ0dw=="></a>
+            <a href="https://www.tiktok.com/@biakweli?_t=ZM-8xIrRqIU6fF&_r=1
+        </div>
+    </footer>
+</body>
 </html>

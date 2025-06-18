@@ -16,15 +16,18 @@ header{
     margin: 0;
 }
 
-
 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: orange;
-    position: sticky;
-    top: 50px;
-    width: 100%;
-    padding: 10px 0;
-    z-index: 1000;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.navbar_logo img {
+    width: 150px;
+    height: 25px;
+    object-fit: contain;
 }
 
 nav ul {
@@ -36,7 +39,27 @@ nav ul {
 }
 nav ul li {
     margin: 0 15px;
+    position: relative;
 }
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
+    background-image: url("/page_html/image/another_logo.jpg");
+    box-shadow: black 0px 4px 6px -1px, rgb(231, 186, 102) 0px 2px 4px -1px;
+    transition: 0.3s ease;
+    font-weight: bold;
+    transition: 0.3s ease;
+    font-size: 1.2em;
+}
+nav ul li a:hover {
+    color: orange;
+    text-decoration: none;
+    background-color: white;
+    box-shadow: white 0px 4px 6px -1px, 0px 2px 4px -1px;
+}
+
 .container-text {
     text-align: center;
     padding: 20px;
@@ -90,19 +113,12 @@ nav ul li {
     height: auto;
     border-radius: 10px;
 }
-.post_video {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-    flex-direction: column;
+.FAQ{
+    margin: 3px;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 8px;
 }
-.post_video video {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-}
-
 .photo_img_2 {
     display: flex;
     justify-content: center;
@@ -115,8 +131,71 @@ nav ul li {
     height: auto;
     border-radius: 10px;
 }
+.post-ligne {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px 0;
+}
 
+.post {
+  flex: 0 0 auto;
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
 
+.swiper-zone {
+  margin-top: 20px;
+}
+
+.swiper-container {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  scroll-snap-type: x mandatory;
+}
+
+.swiper-container img {
+  scroll-snap-align: center;
+  flex: 0 0 auto;
+  width: 300px;
+  height: 200px;
+}
+h2{
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.origins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+    margin: 34px 0;
+    text-align: center;
+    padding: 20px;
+}
+.co_founder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.co_founder li{
+    list-style: none;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
 footer {
     background-color: orange;
     color: white;
