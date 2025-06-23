@@ -6,9 +6,20 @@
     <title>BIAKWELI</title>
     <link rel="stylesheet" href="/page_css/style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="noopener" href="https://www.facebook.com/share/19TCDxMepA/?mibextid=wwXIfr" target="_blank">
-    <link rel="noopener" href="https://www.instagram.com/biakweli_?igsh=MXIzajhwOXg4OTJ0dw==" target="_blank">
-    <link rel="noopener" href="https://www.tiktok.com/@biakweli?_t=ZM-8xIrRqIU6fF&_r=1" target="_blank">
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: orange;
+            padding: 10px 20px;
+        }
+        .navbar_logo img {
+            width: 150px;
+            height: 25px;
+        }
+    </style>
 </head>
 <body>
    <header>
@@ -27,21 +38,8 @@
         </div>
         </nav>
     </header>
-
-     <style>
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: orange;
-            padding: 10px 20px;
-        }
-        .navbar_logo img {
-            width: 150px;
-            height: 25px;
-        }
-    </style>
-
+    
+    
     <div class="container-text">
         <h1>NOS PHOTOS</h1>
         <p>Bienvenue dans notre section "Nos Photos" ! Ici, nous partageons des images inspirantes et informatives qui mettent en lumière notre mission et nos activités. Notre objectif est de sensibiliser, d'informer et d'inspirer nos visiteurs à travers des contenus visuels variés.</p>
@@ -50,7 +48,7 @@
     </div>
 
   <section class="post-ligne">
-  <div class="post">
+  <div class="post_1">
     <h2>Citation de Mouammar Kadhafi</h2>
     <img src="/page_html/image/citation.jpg" alt="Citation inspirante" height="200px" width="300">
     <p>Ce post aborde la paix. Une citation provenant du grand Mouammar Kadhafi, un officier militaire, révolutionnaire, homme politique et théoricien politique libyen qui a dirigé la Libye de 1969 jusqu’à son assassinat par les forces rebelles libyennes en 2011.</p>
@@ -63,14 +61,17 @@
   </div>
 
   <div class="post">
-    <img src="/page_html/image/biakweli img.jpg" alt="Éducation" height="200px" width="300">
-    <p>Dans ce post, nous explorons l'importance de l'éducation pour le développement des jeunes élites Congolais.</p>
-    <form action="commentaire" method="post">
-      <label for="comment">Laisser un commentaire :</label>
-      <textarea id="comment" name="comment" rows="2" cols="30" placeholder="Écrivez votre commentaire ici..."></textarea>
-      <br>
-      <button type="submit">Envoyer</button>
+    <div class="post_2">
+        <img src="/page_html/image/biakweli img.jpg" alt="Éducation" height="200px" width="300">
+        <p>Dans ce post, nous explorons l'importance de l'éducation pour le développement des jeunes élites Congolais.</p>
+        <form action="commentaire" method="post">
+        <label for="comment">Laisser un commentaire :</label>
+        <textarea id="comment" name="comment" rows="2" cols="30" placeholder="Écrivez votre commentaire ici..."></textarea>
+        <br>
+        <button type="submit">Envoyer</button>
+    </div>
  </div>
+
     <div class="post">
         <div class="swiper-container">
             <div class="swiper-wrapper">
@@ -92,18 +93,43 @@
                 <div class="swiper-slide">
                     <img src="/page_html/image/WhatsAppImage2025.jpg" alt="Photo 4" height="200px" width="300">
             </div>
+            <div class="post">
+        <div class="swiper-container_2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/page_html/image/IMG-3.jpg" alt="Photo 1" height="200px" width="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/page_html/image/img 1.jpg" alt="Photo 2" height="200px" width="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/page_html/image/img 2.jpg" alt="Photo 3" height="200px" width="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/page_html/image/IMG-4.jpg" alt="Photo 4" height="200px" width="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/page_html/image/IMG-5.jpg" alt="Photo 4" height="200px" width="300">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/page_html/image/IMG-6.jpg" alt="Photo 4" height="200px" width="300">
+            </div>
+            <div class="swiper-slide">
+                    <img src="/page_html/image/IMG-7.jpg" alt="Photo 4" height="200px" width="300">
             </div>
     </section>
 <footer>
-        <div class="footer-content">
-            <p>&copy; 2023 BIAKWELI. Tous droits réservés.</p>
-            <p>Contact: <a href="mailto:contact@biakweli.com">contact@biakweli.com</a></p>
-            <p>Suivez-nous sur les réseaux sociaux pour rester informé de nos activités et de nos projets.</p>
-            <p>Rejoignez-nous dans notre mission de sensibilisation et de développement en République sur nos réseaux sociaux</p>
-            <a href="https://www.facebook.com/share/19TCDxMepA/?mibextid=wwXIfr"></a>
-            <a href="https://www.instagram.com/biakweli_?igsh=MXIzajhwOXg4OTJ0dw=="></a>
-            <a href="https://www.tiktok.com/@biakweli?_t=ZM-8xIrRqIU6fF&_r=1
+    <div class="footer-content">
+        <p>&copy; 2023 BIAKWELI. Tous droits réservés.</p>
+        <p>Contact: <a href="mailto:Snkdepicth01@icloud.com">contact@biakweli.com</a></p>
+        <p>Suivez-nous sur les réseaux sociaux pour rester informé de nos activités et de nos projets.</p>
+        <p>Rejoignez-nous dans notre mission de sensibilisation et de développement en République sur nos réseaux sociaux</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/share/19TCDxMepA/?mibextid=wwXIfr" target="_blank" rel="noopener"><i class='bx bxl-facebook-square'></i></a>
+            <a href="https://www.instagram.com/biakweli_?igsh=MXIzajhwOXg4OTJ0dw==" target="_blank" rel="noopener"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.tiktok.com/@biakweli?_t=ZM-8xIrRqIU6fF&_r=1" target="_blank" rel="noopener"><i class='bx bxl-tiktok' ></i></a>
         </div>
-    </footer>
+    </div>
+</footer>
 </body>
 </html>

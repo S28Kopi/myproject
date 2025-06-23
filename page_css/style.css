@@ -137,28 +137,51 @@ nav ul li a:hover {
   gap: 20px;
   overflow-x: auto;
   padding: 20px 0;
+  font-weight: bold;
+}
+.post-ligne h2{
+    text-align: center;
+    height: 50px;
+    font-size: 1.3em;
+    font-weight: bold;
+
 }
 
-.post {
-  flex: 0 0 auto;
-  width: 300px;
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
+.post_1{
+    width: 320px;
+    border: 3px solid rgb(231, 186, 102);
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 18px;
+    box-sizing: border-box;
+    margin-bottom: 500%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px -1px;
+    flex: 1 0 0 auto;
 }
-
+.post_2{
+    width: 320px;
+    border: 3px solid rgb(231, 186, 102);
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 18px;
+    box-sizing: border-box;
+    margin-bottom: 500%;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 4px 6px -1px;
+    flex: 1 0 0 auto;
+}
 .swiper-zone {
   margin-top: 20px;
+  display: flex;
 }
 
 .swiper-container {
   display: flex;
   overflow-x: scroll;
-  gap: 10px;
+  gap: 20px;
   scroll-snap-type: x mandatory;
+  padding: 35px;
+  
 }
-
 .swiper-container img {
   scroll-snap-align: center;
   flex: 0 0 auto;
@@ -195,6 +218,17 @@ h2{
     padding: 10px;
     margin-top: 10px;
 }
+
+.co_founder ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.co_founder img{
+    height: 350px;
+    width: 300px;
+}
 footer {
     background-color: orange;
     color: white;
@@ -217,6 +251,23 @@ footer p {
 .footer-content p {
     margin: 0;
     font-size: 1em;
+}
+.footer-content a{
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 18px;
+    color: orange;
+    text-decoration: none;
+    box-shadow: #f4f4f4 0 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 35px;
+    transition: transform 0.3s ease;
+    box-shadow :0.3s ease rgba(0, 0, 0, 0.5);
+}
+.footer-content a:hover{
+    box-shadow: #f4f4f4 0 2px 8px rgba(0, 0, 0, 0.7);
+    transform: translateY(-3px);
 }
 .button-click {
     text-align: center;
@@ -259,48 +310,7 @@ footer p {
     outline: none;
     box-shadow: none;
 }
-
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-      
-        .FAQ {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .container-text {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .faq-item {
-            margin-bottom: 15px;
-            padding: 15px;
-            background-color: #f9f9f9;
-        }
-
-        .faq-item h2 {
-            color: orange;
-        }
-
-        .faq-item p {
-            margin-top: 5px;
-        }
-        .faq-item button {
-            background-color: orange;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+.button-link:focus-visible {
+    outline: 2px solid orange;
+    outline-offset: 2px;
+}

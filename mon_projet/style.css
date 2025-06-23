@@ -138,6 +138,23 @@ footer p {
     margin: 0;
     font-size: 1em;
 }  
+.footer-content a{
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 18px;
+    color: orange;
+    text-decoration: none;
+    box-shadow: #f4f4f4 0 2px 8px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 35px;
+    transition: transform 0.3s ease;
+    box-shadow :0.3s ease rgba(0, 0, 0, 0.5);
+}
+.footer-content a:hover{
+    box-shadow: #f4f4f4 0 2px 8px rgba(0, 0, 0, 0.7);
+    transform: translateY(-3px);
+}
 @media(max-width:390px){
     .navbar_logo img{
         width: 50px;
