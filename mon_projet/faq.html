@@ -3,116 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIAKWELI</title>
-    <link rel="stylesheet" href="/page_css/style.css">
+    <title>BIAKWELI- le reveil de la jeunesse Congolaise</title>
+    <link rel="icon" href="/mon_projet/image/another_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/mon_projet/STYLE.css">
+    <link rel="stylesheet" href="/mon_projet/aboutus.css">
+    <link rel="stylesheet" href="/mon_projet/faq.css">
+    <link rel="stylesheet" href="/mon_projet/script.js">
+    <link rel="stylesheet" href="/mon_projet/nos_posts.css">
+    <link rel="stylesheet" href="/mon_projet/nos_photos.css">
+    <link rel="stylesheet" href="/mon_projet/nos_videos.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <style>
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: orange;
-            padding: 10px 20px;
-        }
-        .navbar_logo img {
-            width: 150px;
-            height: 25px;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-            margin: 0;
-        }
-        nav ul li {
-            margin: 0 15px;
-            position: relative;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 15px;
-            background-image: url("/mon_projet/image/another_logo.jpg");
-            box-shadow: black 0px 4px 6px -1px, rgb(231, 186, 102) 0px 2px 4px -1px;
-            transition: 0.3s ease;
-            font-weight: bold;
-            transition: 0.3s ease;
-            font-size: 1.2em;
-        }
-        nav ul li a:hover {
-            color: orange;
-            text-decoration: none;
-            background-color: white;
-            box-shadow: white 0px 4px 6px -1px, 0px 2px 4px -1px;
-        }
-         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-
-      
-        .FAQ {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 15px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .container-text {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-
-        .faq-item {
-            margin-bottom: 25px;
-            padding: 15px;
-            background-color: #f9f9f9;
-        }
-
-        .faq-item h2 {
-            color: orange;
-            padding: 10px;
-            font-size: 1.8em;
-        }
-
-        .faq-item p {
-            margin-top: 5px;
-            padding: 10px;
-        }
-        .faq-item button {
-            background-color: orange;
-            color: white;
-            border: none;
-            padding: 10px 15px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <nav>
-            <div class="navbar_logo">
-                <img src="/mon_projet/image/another_logo.jpg" width="150" height="25px" alt="Logo BIAKWELI">
-            </div>
-            <ul id="liste">
-                <li><a href="/mon_projet/index.html">ACCUEIL</a></li>
-                <li><a href="/mon_projet/qui_sommes_nous.html">QUI SOMMES-NOUS?</a></li>
-                <li><a href="/mon_projet/nos_posts.html">NOS POSTS</a></li>
-                <li><a href="/mon_projet/faq.html">FAQ</a></li>
-            </ul>
-           <div class="burger-icon">
-            <img src="/mon_projet/image/bx-menu.svg" alt="menu hamburger icon" height="20px">
-        </div>
-        </nav>
-    </header> 
+          <nav class="navbar">
+                <div class="navbar_logo">
+                     <a href="/mon_projet/index.html" class="logo-link"> <img src="/mon_projet/image/another_logo.jpg" width="150" height="25px" alt="logo BIAKWELI"></a>
+                </div>
+                <ul id="liste" class="nav-links">
+                     <li><a href="/mon_projet/index.html">ACCUEIL</a></li>
+                     <li><a href="/mon_projet/qui_sommes_nous.html">QUI SOMMES-NOUS?</a></li>
+                     <li><a href="/mon_projet/nos_posts.html">NOS POSTS</a></li>
+                     <li><a href="/mon_projet/faq.html">FAQ</a></li>
+                </ul>
+                <div class="burger-icon" id="burger-menu">
+                     <img src="/mon_projet/image/bx-menu.svg" alt="menu hamburger icon" height="20px">
+                </div>
+          </nav>
+     </header>
 
     <section class="FAQ">
 

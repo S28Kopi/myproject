@@ -3,169 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BIAKWELI</title>
+    <title>BIAKWELI- le reveil de la jeunesse Congolaise</title>
+    <link rel="icon" href="/mon_projet/image/another_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/mon_projet/STYLE.css">
+    <link rel="stylesheet" href="/mon_projet/aboutus.css">
+    <link rel="stylesheet" href="/mon_projet/faq.css">
+    <link rel="stylesheet" href="/mon_projet/script.js">
+    <link rel="stylesheet" href="/mon_projet/nos_posts.css">
+    <link rel="stylesheet" href="/mon_projet/nos_photos.css">
+    <link rel="stylesheet" href="/mon_projet/nos_videos.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="/mon_projet/style.css">
-    <style>
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: orange;
-            padding: 10px 20px;
-        }
-        .navbar_logo img {
-            width: 150px;
-            height: 25px;
-        }
-        nav ul {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            padding: 10px 0;
-            margin: 0;
-        }
-        nav ul li {
-            margin: 0 15px;
-            position: relative;
-        }
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 15px;
-            background-image: url("/mon_projet/image/another_logo.jpg");
-            box-shadow: black 0px 4px 6px -1px, rgb(231, 186, 102) 0px 2px 4px -1px;
-            transition: 0.3s ease;
-            font-weight: bold;
-            transition: 0.3s ease;
-            font-size: 1.2em;
-        }
-        nav ul li a:hover {
-            color: orange;
-            text-decoration: none;
-            background-color: white;
-            box-shadow: white 0px 4px 6px -1px, 0px 2px 4px -1px;
-        }
-        .video {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0px;
-            
-        }
-        .video h2 {
-            margin-bottom: 10px;
-            font-size: 1.5em;
-            color: #333;
-        }
-        .video video {
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 50px;
-        }
-        .button-picture {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .container-text {
-            text-align: center;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-            max-width: 1300px;
-            margin: 0 auto;
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-
-        .container-text h1 {
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .container-text p {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        h2{
-    color: orange;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 2em;
-    margin-bottom: 30px;
-}
-.origins{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border-radius: 5px;
-    margin: 34px 0;
-    text-align: center;
-    padding: 20px;
-}
-.co_founder{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-.co_founder li{
-    list-style: none;
-    margin: 10px;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.co_founder ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.co_founder img{
-    height: 350px;
-    width: 300px;
-}
-    </style>
 </head>
 <body>
-   <header>
-        <nav class="navbar">
-            <div class="navbar_logo">
-                <a href="/mon_projet/index.html" class="logo-link"> <img src="/mon_projet/image/another_logo.jpg" width="150" height="25px" alt="logo BIAKWELI"></a>
-            </div>
-            <ul id="liste">
-                <li><a href="/mon_projet/index.html">ACCUEIL</a></li>
-                <li><a href="/mon_projet/qui_sommes_nous.html">QUI SOMMES-NOUS?</a></li>
-                <li><a href="/mon_projet/nos_posts.html">NOS POSTS</a></li>
-                <li><a href="/mon_projet/faq.html">FAQ</a></li>
-            </ul>
-            <div class="burger-icon">
-            <img src="/mon_projet/image/bx-menu.svg" alt="menu hamburger icon" height="20px">
-        </div>
-        </nav>
-    </header>
+    <header>
+          <nav class="navbar">
+                <div class="navbar_logo">
+                     <a href="/mon_projet/index.html" class="logo-link"> <img src="/mon_projet/image/another_logo.jpg" width="150" height="25px" alt="logo BIAKWELI"></a>
+                </div>
+                <ul id="liste" class="nav-links">
+                     <li><a href="/mon_projet/index.html">ACCUEIL</a></li>
+                     <li><a href="/mon_projet/qui_sommes_nous.html">QUI SOMMES-NOUS?</a></li>
+                     <li><a href="/mon_projet/nos_posts.html">NOS POSTS</a></li>
+                     <li><a href="/mon_projet/faq.html">FAQ</a></li>
+                </ul>
+                <div class="burger-icon" id="burger-menu">
+                     <img src="/mon_projet/image/bx-menu.svg" alt="menu hamburger icon" height="20px">
+                </div>
+          </nav>
+     </header>
 
-  <div class="about">
-    <div class="container-text">
-        <h1>QUI SOMMES-NOUS ?</h1>
-        <h3>MBOTE MWANA MBOKA !</h3>
-        <p>Savais-tu que la connaissance de ton histoire, de tes droits et du droit des autres est un pas considérable vers le développement ?</p>
-        <p>Alors nous vous invitons à nous rejoindre dans cette nouvelle aventure pour qu'ensemble nous soyons le moteur du développement que nous souhaitons pour notre pays.</p>
-        <p>Aujourd'hui nous allons nous intéresser à la République démocratique du Congo. Ce pays connait une instabilité depuis des décennies et il est confronté à de nombreux défis, Parmi lesquels nous pouvons citer la pauvreté généralisée, les conflits armés, l'insécurité alimentaire, l'accès limité à l'éducation et aux soins de santé.</p>
-        <p>Il nous semblait important d'en parler car ce qui s'y passe n'est pas souvent évoqué dans les médias.</p>
-        <p>En dépit de ces difficultés, nous avons décidé d'agir pour trouver des solutions aux problèmes auxquels la République Démocratique du Congo est confrontée, car nous croyons fermement que chaque petit geste compte et qu'en travaillant ensemble, nous pouvons apporter des changements positifs dans la vie des habitants de la République Démocratique du Congo.</p>
-    </div>
+  <section class="container-text">
+          <div class="container-text">
+          <h1>QUI SOMMES-NOUS ?</h1>
+          <h3>MBOTE MWANA MBOKA !</h3>
+          <p>Savais-tu que la connaissance de ton histoire, de tes droits et du droit des autres est un pas considérable vers le développement ?</p>
+          <p>Alors nous vous invitons à nous rejoindre dans cette nouvelle aventure pour qu'ensemble nous soyons le moteur du développement que nous souhaitons pour notre pays.</p>
+          <p>Aujourd'hui nous allons nous intéresser à la République démocratique du Congo. Ce pays connait une instabilité depuis des décennies et il est confronté à de nombreux défis, Parmi lesquels nous pouvons citer la pauvreté généralisée, les conflits armés, l'insécurité alimentaire, l'accès limité à l'éducation et aux soins de santé.</p>
+          <p>Il nous semblait important d'en parler car ce qui s'y passe n'est pas souvent évoqué dans les médias.</p>
+          <p>En dépit de ces difficultés, nous avons décidé d'agir pour trouver des solutions aux problèmes auxquels la République Démocratique du Congo est confrontée, car nous croyons fermement que chaque petit geste compte et qu'en travaillant ensemble, nous pouvons apporter des changements positifs dans la vie des habitants de la République Démocratique du Congo.</p>
+          <div class="photos_img_about">
+                <img class="photo_img_3" src="/mon_projet/image/whoarewe.jpg" height="350" width="25%" alt="Photo">
+     </div>
   </div>
+</div>
+</section>
 
-    <div class="photos_img">
-        <img class="photo_img_3" src="/mon_projet/image/whoarewe.jpg" height="350" width="25%" alt="Photo">
-    </div>
+</section>
+    
 
     <section class="container"><br>
         <h2>Notre Mission</h2>
@@ -190,13 +74,12 @@
         <p>Nous sommes fiers de présenter nos co-fondateurs, qui ont joué un rôle essentiel dans la création et le développement de BIAKWELI. Leur passion, leur engagement et leur vision ont été les moteurs de notre association.</p>
         <ul>
             <li><strong>KOPI Kyangu Lomembe Odi-LAURENCE</strong> - Premier fondateur de BIAKWELI.</li>
-            <img src="/mon_projet/image/Joker Two Face.jpg" alt="Premier fondateur de BIAKWELI" height="350px" width="300">
+            <img src="/mon_projet/image/idk.jpg" alt="Premier fondateur de BIAKWELI" height="350px" width="300">
             <li><strong>NDOMBI Maboti Randy</strong> - Deuxieme Co-Fondateur de BIAKWELI.</li>
-            <img src="" alt="">
+            <img src="/mon_projet/image/idk2.jpg" alt="Second co-fondateur de BIAKWELI" height="350px" width="300">
             <li><strong>KOPI Luangamukela Stine</strong> - Createur du Site Web BIAKWELI.</li>
             <img src="/mon_projet/image/website maker.jpg" alt="createur du site web" height="400px" width="300">
         </ul>
-        <p>Nous remercions nos co-fondateurs pour leur dévouement et leur leadership, qui continuent d'inspirer notre communauté.</p>
     </div>
 
 <footer>
