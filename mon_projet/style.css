@@ -48,7 +48,7 @@ nav ul li a {
     color: white;
     padding: 10px 15px;
     border-radius: 15px;
-    background-image: url("/mon_projet/image/another_logo.jpg");
+    background-image: url("/image/another_logo.jpg");
     box-shadow: black 0px 4px 6px -1px, rgb(231, 186, 102) 0px 2px 4px -1px;
     transition: 0.3s ease;
     font-weight: bold;
@@ -264,5 +264,524 @@ footer p {
         padding: 6px 12px;
         font-size: 0.95em;
         border-radius: 20px;
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 415px) {
+    header {
+        padding: 14px 0;
+        font-size: 1.15em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 12px;
+    }
+    .navbar_logo img {
+        width: 120px;
+        height: 22px;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    nav ul li a {
+        font-size: 1.08em;
+        padding: 9px 12px;
+        border-radius: 12px;
+        background-size: cover;
+    }
+    .burger-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+    }
+    .photo_img_accueil {
+        width: 60%;
+        height: auto;
+        max-width: 100%;
+    }
+    .container-text,
+    .footer-content {
+        max-width: 94%;
+        padding: 12px;
+    }
+    .container-text h1 {
+        font-size: 1.5em;
+        margin-bottom: 16px;
+    }
+    .co_founder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 18px auto;
+        width: 100%;
+        max-width: 97vw;
+    }
+    .co_founder ul {
+        gap: 16px;
+    }
+    .co_founder li {
+        font-size: 1.08em;
+    }
+    .co_founder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 22px auto;
+        width: 100%;
+        max-width: 95vw;
+        padding: 0 2vw;
+    }
+    .co_founder img {
+        display: block;
+        margin: 0 auto 12px auto;
+        max-width: 22vw;
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    }
+    .button-click {
+        margin: 14px auto;
+        width: 70%;
+        gap: 12px;
+    }
+    .button-link {
+        padding: 9px 12px;
+        font-size: 1.05em;
+        border-radius: 12px;
+    }
+    footer {
+        padding: 14px 0;
+        font-size: 1em;
+    }
+    .footer-content a {
+        margin: 8px;
+        padding: 7px 14px;
+        font-size: 1em;
+        border-radius: 22px;
+    }
+}
+@media only screen and (max-width: 412px) and (min-width: 400px) {
+    header {
+        padding: 13px 0;
+        font-size: 1.13em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 9px 10px;
+    }
+    .navbar_logo img {
+        width: 115px;
+        height: 21px;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 9px 0;
+    }
+    nav ul li a {
+        font-size: 1.04em;
+        padding: 8px 11px;
+        border-radius: 11px;
+        background-size: cover;
+    }
+    .burger-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+    }
+    .photo_img_accueil {
+        width: 50%;
+        height: auto;
+        max-width: 100%;
+    }
+    .container-text,
+    .footer-content {
+        max-width: 92%;
+        padding: 11px;
+    }
+    .container-text h1 {
+        font-size: 1.45em;
+        margin-bottom: 15px;
+    }
+    .co_founder {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;         
+    text-align: center;
+    margin: 24px auto 16px auto;
+    width: 100%;
+    max-width: 98vw;
+    padding: 0 2vw;
+}
+.co_founder ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;                    
+    width: 100%;
+    max-width: 500px;             
+}
+.co_founder li {
+    font-size: 1.08em;
+    font-weight: 500;
+    margin-bottom: 0;
+    width: 100%;
+    word-break: break-word;
+}
+.co_founder img {
+    display: block;
+    margin: 0 auto 12px auto;
+    max-width: 90vw;
+    width: 100%;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+}
+    .button-click {
+        margin: 13px auto;
+        width: 65%;
+        gap: 11px;
+    }
+    .button-link {
+        padding: 8px 11px;
+        font-size: 1.02em;
+        border-radius: 11px;
+    }
+    footer {
+        padding: 13px 0;
+        font-size: 0.97em;
+    }
+    .footer-content a {
+        margin: 7px;
+        padding: 6px 13px;
+        font-size: 0.97em;
+        border-radius: 21px;
+    }
+}
+@media only screen and (max-width: 414px) and (min-width: 400px) and (orientation: portrait) {
+      header {
+        padding: 13px 0;
+        font-size: 1.13em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 9px 4px 9px 10px; 
+    }
+    .navbar_logo img {
+        width: 115px;
+        height: 21px;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 9px 0;
+    }
+    nav ul li a {
+        font-size: 1.04em;
+        padding: 8px 11px;
+        border-radius: 11px;
+        background-size: cover;
+    }
+    .burger-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+    }
+    .photo_img_accueil {
+        width: 52%;
+        height: auto;
+        max-width: 100%;
+    }
+    .container-text,
+    .footer-content {
+        max-width: 92%;
+        padding: 11px;
+    }
+    .container-text h1 {
+        font-size: 1.45em;
+        margin-bottom: 15px;
+    }
+    .co_founder {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        margin: 24px auto 16px auto;
+        width: 100%;
+        max-width: 98vw;
+        padding: 0 2vw;
+    }
+    .co_founder ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 14px;
+        width: 100%;
+        max-width: 500px;
+    }
+    .co_founder li {
+        font-size: 1.08em;
+        font-weight: 500;
+        margin-bottom: 0;
+        width: 100%;
+        word-break: break-word;
+    }
+    .co_founder img {
+        display: block;
+        margin: 0 auto 12px auto;
+        max-width: 90vw;
+        width: 100%;
+        height: auto;
+        border-radius: 14px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    }
+    .button-click {
+        margin: 13px auto;
+        width: 65%;
+        gap: 11px;
+    }
+    .button-link {
+        padding: 8px 11px;
+        font-size: 1.02em;
+        border-radius: 11px;
+    }
+    footer {
+        padding: 13px 0;
+        font-size: 0.97em;
+    }
+    .footer-content a {
+        margin: 7px;
+        padding: 6px 13px;
+        font-size: 0.97em;
+        border-radius: 21px;
+    }
+}
+
+@media only screen and (max-width: 430px) and (min-width: 420px) and (orientation: portrait) {
+    header {
+        padding: 14px 0;
+        font-size: 1.15em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 8px 10px 12px;
+    }
+    .navbar_logo img {
+        width: 125px;
+        height: 23px;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    nav ul li a {
+        font-size: 1.1em;
+        padding: 9px 13px;
+        border-radius: 13px;
+        background-size: cover;
+    }
+    .burger-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .photo_img_accueil {
+        width: 54%;
+        height: auto;
+        max-width: 40%;
+        margin: 0 auto 16px auto;
+    }
+    .container-text,
+    .footer-content {
+        max-width: 94%;
+        padding: 13px;
+    }
+    .container-text h1 {
+        font-size: 1.55em;
+        margin-bottom: 17px;
+    }
+    .co_founder {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+        margin: 24px auto 16px auto;
+        width: 100%;
+        max-width: 98vw;
+        padding: 0 2vw;
+    }
+    .co_founder ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        max-width: 520px;
+    }
+    .co_founder li {
+        font-size: 1.09em;
+        font-weight: 500;
+        margin-bottom: 0;
+        width: 100%;
+        word-break: break-word;
+    }
+    .co_founder img {
+        display: block;
+        margin: 0 auto 12px auto;
+        max-width: 88vw;
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    }
+    .button-click {
+        margin: 14px auto;
+        width: 68%;
+        gap: 12px;
+    }
+    .button-link {
+        padding: 9px 13px;
+        font-size: 1.06em;
+        border-radius: 13px;
+    }
+    footer {
+        padding: 14px 0;
+        font-size: 1em;
+    }
+    .footer-content a {
+        margin: 8px;
+        padding: 7px 15px;
+        font-size: 1em;
+        border-radius: 23px;
+    }
+}
+
+/* Responsive pour iPad Mini (768px x 1024px) */
+@media only screen and (max-width: 768px) and (min-width: 600px) and (orientation: portrait) {
+    header {
+        padding: 18px 0;
+        font-size: 1.22em;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 14px 24px 14px 24px;
+    }
+    .navbar_logo img {
+        width: 140px;
+        height: 24px;
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+    }
+    nav ul li {
+        margin: 12px 0;
+    }
+    nav ul li a {
+        font-size: 1.13em;
+        padding: 11px 18px;
+        border-radius: 15px;
+        background-size: cover;
+    }
+    .burger-icon {
+        display: block;
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .photo_img_accueil {
+        width: 60%;
+        height: auto;
+        max-width: 350px;
+        margin: 0 auto 20px auto;
+    }
+    .container-text,
+    .footer-content {
+        max-width: 96%;
+        padding: 18px;
+    }
+    .container-text h1 {
+        font-size: 1.7em;
+        margin-bottom: 20px;
+    }
+    .co_founder {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 28px auto 18px auto;
+        width: 100%;
+        max-width: 90vw;
+        padding: 0 2vw;
+    }
+    .co_founder ul {
+        gap: 20px;
+        max-width: 600px;
+    }
+    .co_founder li {
+        font-size: 1.15em;
+    }
+    .co_founder img {
+        display: block;
+        margin: 0 auto 10px auto;
+        max-width: 120px;
+        width: 80%;
+        height: auto;
+        border-radius: 18px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+        object-fit: cover;
+    }
+    .button-click {
+        margin: 18px auto;
+        width: 55%;
+        gap: 16px;
+    }
+    .button-link {
+        padding: 12px 18px;
+        font-size: 1.12em;
+        border-radius: 15px;
+    }
+    footer {
+        padding: 18px 0;
+        font-size: 1.08em;
+    }
+    .footer-content a {
+        margin: 10px;
+        padding: 9px 20px;
+        font-size: 1.08em;
+        border-radius: 28px;
     }
 }

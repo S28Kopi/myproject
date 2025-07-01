@@ -111,14 +111,36 @@ nav ul li a:focus{
     box-sizing: border-box;
     box-shadow: 0 4px 6px rgb(231, 186, 102);
 }
-.post_1, .post_2, .post_3, .post_4 {
+.post_1, .post_2, .post_3, .post_4, .post_5, .post_6 , .post_7, .post_8 {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    gap: 35px;
-    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
 }
 
+.post_1 h2, .post_2 h2, .post_3 h2, .post_4 h2, .post_5 h2, .post_6 h2, .post_7 h2, .post_8 h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.post_1 p, .post_2 p, .post_3 p, .post_4 p, .post_5 p, .post_6 p, .post_7 p, .post_8 p {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.post_1 img, .post_2 img, .post_3 img, .post_4 img, .post_5 img, .post_6 img, .post_7 img, .post_8 img {
+    width: 300px;
+    height: 290px;
+    border-radius: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
 .swiper-container_2 {
     width: 100%;
     height: 100%;
@@ -126,5 +148,7 @@ nav ul li a:focus{
 
 .swiper-wrapper {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
