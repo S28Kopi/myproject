@@ -43,7 +43,7 @@ nav ul li a{
     color: #fff;
     padding: 10px 22px;
     border-radius: 20px;
-    background-image: url('/image/another_logo.jpg');
+    background-image: url('/codebase/image/another_logo.jpg');
     font-weight: 600;
     font-size: 1.1em;
     letter-spacing: 0.5px;
@@ -53,14 +53,12 @@ nav ul li a{
     align-items: center;
 
 }
-
 nav ul li a:hover{
     color: orange;
     background: #fff;
     box-shadow: 0 2px 12px rgba(72, 247, 110, 0.354);
     outline: none;
 }
-
 nav ul li a:focus{
     outline: none;
     box-shadow: 0 2px 12px rgba(255,165,0,0.18);
@@ -69,47 +67,40 @@ nav ul li a:focus{
     display: none;
     cursor: pointer;
 }
-
-        .video {
+        .video_1, .video_2, .video_3, .video_4 {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin: 0px;
-            
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            margin-top: 20px;
         }
-        .video h2 {
-            margin-bottom: 10px;
-            font-size: 1.5em;
-            color: #333;
-        }
-        .video video {
+        .video_1 video, .video_2 video, .video_3 video, .video_4 video {
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 50px;
+            margin-bottom: 20px;
+            width: 360px;
         }
-        .button-picture {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            margin-top: 50px;
-            margin-bottom: 50px;
+        footer {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
         }
 
-        button-click {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    margin: 20px 0;
-}
-.button-link {
-    background-color: orange;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 15px;
-    text-decoration: none;
-    transition: 0.3s ease;
-}
-.button-link:hover {
-    background-color: #e68a00;
-    box-shadow: #f4f4f4 0px 0px 15px;
-}
+        footer p {
+            margin: 0;
+        }
+
+        .footer-content {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .footer-content p {
+            margin: 0;
+            font-size: 1em;
+            color: white;
+        }

@@ -48,7 +48,7 @@ nav ul li a {
     color: white;
     padding: 10px 15px;
     border-radius: 15px;
-    background-image: url("/image/another_logo.jpg");
+    background-image: url("/codebase/image/another_logo.jpg");
     box-shadow: black 0px 4px 6px -1px, rgb(231, 186, 102) 0px 2px 4px -1px;
     transition: 0.3s ease;
     font-weight: bold;
