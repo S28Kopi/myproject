@@ -101,6 +101,28 @@ nav ul li a:focus{
     justify-content: center;
     margin: 20px 0;
 }
+
+.post_1 textarea {
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Segoe UI', sans-serif;
+  resize: vertical;
+}
+
+.post_1 button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.post_1 button:hover {
+  background-color: #1c86ee;
+}
+
 .button-link {
     background-color: orange;
     color: white;
